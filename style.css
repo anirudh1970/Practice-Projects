@@ -1,0 +1,47 @@
+.search-button{
+    font-family:'Oswald',sans-serif;
+    border-radius:10px;
+    height:30px;
+    width:100px;
+    margin:10px;
+    vertical-align: middle;
+}
+
+#cityname{
+    font-family: 'Oswald',sans-serif;
+    height:30px;
+    margin:10px;
+    vertical-align: middle;
+    border-radius:10px;
+    width:250px;
+}
+body{
+    height:100px;
+    background-color: rgb(39, 167, 236);
+}
+
+.search-button:hover{
+    color:white;
+    background-color:limegreen;
+    cursor:hand;
+}
+.weather-block{
+    width:600px;
+    background-color:white;
+    border:5px solid black;
+    border-radius:50px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#results{
+    font-size:25px;
+    font-family:'Oswald',sans-serif;
+}
+.display-area{
+    border:5px solid black;
+    max-width:700px;
+    max-height:700px;
+    background-color: white;
+    border-radius:20px;
+    font-family:'Times New Roman', Times, serif;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+    </style>
+</head>
+<body style="background-color: rgb(47, 55, 204);">
+    <center>
+        
+        <div class="header"></div>
+        
+            <div class="weather-block">
+                <div class="search">
+                    <i class="fa fa-map-marker" style="font-size:30px;vertical-align:middle;"></i>
+                    <input type="text" id="cityname" placeholder="Enter city name..">
+                    <input type="button" class="search-button" id="b1" value="Search">
+                    <button class="search-button" >Refresh</button>
+                </div>
+            </div>
+            <br>
+            <div class="display-area"  id="d1">
+                <div id="location-name" style="font-size:30px;"></div>
+                <div id="date-time" style="font-size:25px;"></div>
+                <div id="pic-and-temp" >
+                    <div id="imagediv" ></div>
+                    <div id="temp" style="font-size:65px;font-style:bold;"></div>
+                </div>
+                <div id="condition" style="font-size:25px;"></div>
+                <table style="font-size:40px;text-align:left;margin-left:auto;margin-right:auto;text-align:left;height:300px;width:500px;">
+                    <tr>
+                        <td><div id="x1"><div id="feels-like"></div><div id="feels-text" style="font-size:18px;"></div></td>
+                        <td><div id="x2"><div id="humi"></div><div id="humi-text" style="font-size:18px;"></div></div></td>
+                        <td><div id="x5"><div id="visibility"></div><div id="visi-text" style="font-size:18px;"></div></td>
+                        <td><div id="x7"><div id="clouds"></div><div id="cloud-text" style="font-size:18px;"></div></td>
+                    </tr>
+                    <tr>
+                        <td><div id="x3"><div id="precip"></div><div id="precip-text" style="font-size:18px;"></div></td>
+                        <td><div id="x4"><div id="uv"></div><div id="uv-text" style="font-size:18px;"></div></td>
+                        <td><div id="x6"><div id="winds"></div><div id="wind-text" style="font-size:18px;"></div></td>
+                        <td><div id="x8"><div id="gust"></div><div id="gust-text" style="font-size:18px;"></div></td>
+                    </tr>
+                </table>
+                <div><div id="l-up"></div></div>
+        </div>
+        
+    </center>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
